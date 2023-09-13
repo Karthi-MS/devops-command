@@ -1,0 +1,44 @@
+man [command name] - Manual command
+clear - clear the terminal
+pwd - present working directory
+cd - change directory
+echo “abc”- print something in the terminal
+whoami - current user of the system
+su - switch to root user
+sudo bash - switch to root user
+su [username] - switch to specific user
+sudo useradd [username] - add user in unix system
+sudo passwd [username] - add password to that user
+sudo userdel [username] - delete that user
+touch [filename] - create a file
+cat [filename] - show the content of file in terminal
+cp [source_file] [destination_path] - to copy file
+cp -R [source_dir] [destnation_path] - to copy dir
+mv [filename] [destnation_path] - to move files
+mv [filename same dir ] [newfilename same dir] - to rename file
+rm [filename] - to remove file
+rm -r [dir] - to remove files and dir
+mkdir [dir name] - to create a new dir
+grep [word] [filename] - to search for the word in the file
+sort [filename] - to print content in the file [a-z] order in the terminal
+chown [username] [filename] - change the owner of the file
+chmod [code] [filename] - give permission to the file (r,w,x) (4,2,1)
+lsof - list of open files
+id - id of current user
+tar -cvf [filename.tar] [dir] - to zip the file (v-verbos , f-filename)
+gzip [filename.tar] - to compress the zip file
+gunzip [filename.gz] - to unzip file
+tar -tvf [filename.tar] - to view the content of the file
+tar -xvf [filename.tar] - to extract the content of the file
+cut [c-column-number] [filename] - to cut and print the selected column into the terminal
+sed 's/old_pattern/new_pattern/ - replace the old pattern to new pattern
+dd if=[source-file] of=[new-file-name] = to copy or rename files
+free - display about system memory
+ssh [hostname]@[ip of other server] - to access the other server from my server
+ssh-keygen -t rsa - to generatet key
+netstat - to see the network and its running ports
+nslookup [domain address] - show the dns propeties of the domain
+curl [option] [url] - get or post in cmd
+service iptables stop - to stop the firewall
+df - to display amount of disk space being used by the system
+sudo du -h -d 1 /var/ - to see which location is consuming lot of disk space
